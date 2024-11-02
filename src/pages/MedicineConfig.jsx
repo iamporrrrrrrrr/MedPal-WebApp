@@ -22,6 +22,7 @@ export default function MedicineConfig({ meds, addMed, curMed, setCurMed, emptyT
         e.preventDefault()
         if(curMed == {Name:"", Type:"", Dosage:"", Interval:"", Duration:"", Instruction:"", Description:"", Time:[""], Tube:0, Take:false}) return
 
+
         if(curMed.Type==="") curMed.Type = "Tablet"
 
         if(!curMed.Tube) curMed.Tube = Math.min(...emptyTubes)

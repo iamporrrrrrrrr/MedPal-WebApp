@@ -21,7 +21,7 @@ export default function Alarm({ meds, time, addMed}){
                 {`${String(time.getHours()).padStart(2, '0')}:${String(time.getMinutes()).padStart(2, '0')}`}
             </div>
             <div className="alarm-img-container">
-                <img src="src/pages/assets/medicine.svg" alt="" className='med-img'/> 
+                <img src="./assets/medicine.svg" alt="" className='med-img'/> 
             </div>
             <div className="alarm-top">
                 {findMed()!==-1 && findMed().map(med => {

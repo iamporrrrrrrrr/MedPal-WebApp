@@ -21,7 +21,7 @@ export default function Medicine({meds, addMed, setCurMed, deleteMed, time}){
             <div className="med-top">
                 <span>Medicine</span>
                 <button onClick = {() => navigate('/MedicineConfig')}>
-                    <img src="src/pages/assets/plus.svg" alt="" /> 
+                    <img src="./assets/plus.svg" alt="" /> 
                 </button> 
             </div>
             <hr/>
@@ -38,7 +38,7 @@ export default function Medicine({meds, addMed, setCurMed, deleteMed, time}){
                                     <button classname='delete-btn'
                                         onClick = {() => deleteMed(med.info)}    
                                     >
-                                        <img src="src/pages/assets/trash.svg" alt="" className="trash"/> 
+                                        <img src="./assets/trash.svg" alt="" className="trash"/> 
                                     </button>
 
                                     <button className="edit-btn"
@@ -47,7 +47,7 @@ export default function Medicine({meds, addMed, setCurMed, deleteMed, time}){
                                             navigate('/MedicineConfig')
                                         }}
                                     >
-                                        <img src="src/pages/assets/right-arrow.svg" alt="" className="right-arrow"/> 
+                                        <img src="./assets/right-arrow.svg" alt="" className="right-arrow"/> 
                                     </button>
 
                                 </div>
@@ -57,9 +57,9 @@ export default function Medicine({meds, addMed, setCurMed, deleteMed, time}){
                     )
                 })}
             </div>
-            <Link to='/'>
+            <Link to='/Home'>
                 <div className="to-home-container">
-                    <img src="src/pages/assets/home.svg" alt="" className='to-home'/> 
+                    <img src="./assets/home.svg" alt="" className='to-home'/> 
                 </div>
             </Link>
         </div>
