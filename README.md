@@ -1,8 +1,3 @@
-# React + Vite
+# MedPal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+MedPal is a start-up project that aims to reduce the workload of medical workers by reminding patients to take their medications at set times. This web application works in conjuction with a drug dispenser to dispense medicines at specific times and give instructions on how to take them.
